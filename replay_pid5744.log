@@ -1,0 +1,49 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 172 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 140370 0 0
+ciMethod java/lang/Thread currentThread ()Ljava/lang/Thread; 2049 1 256 0 -1
+ciMethod java/lang/Thread interrupted ()Z 2097 1 14738 0 0
+ciMethod java/lang/Thread isInterrupted (Z)Z 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe putObject (Ljava/lang/Object;JLjava/lang/Object;)V 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe compareAndSwapObject (Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z 3073 1 384 0 -1
+ciMethod sun/misc/Unsafe compareAndSwapInt (Ljava/lang/Object;JII)Z 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe park (ZJ)V 2057 1 257 0 -1
+ciMethodData java/lang/Object <init> ()V 2 140370 orig 264 72 34 139 105 0 0 0 0 128 4 233 22 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 145 18 17 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/concurrent/locks/ReentrantLock lock ()V 2065 1 17076 0 0
+ciMethod sun/awt/SunToolkit awtLock ()V 2049 1 8449 0 0
+ciMethod java/util/concurrent/locks/ReentrantLock$NonfairSync lock ()V 3097 1 5507 0 1152
+ciMethod java/util/concurrent/locks/ReentrantLock$NonfairSync tryAcquire (I)Z 1313 1 7247 0 0
+ciMethod java/util/concurrent/locks/ReentrantLock$Sync lock ()V 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/ReentrantLock$Sync nonfairTryAcquire (I)Z 1313 1 7242 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer getState ()I 1057 1 132 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer setState (I)V 2081 1 6347 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetState (II)Z 2057 1 10988 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer enq (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 1529 41 4810 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer addWaiter (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 89 1 292 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer setHead (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 2065 1 5090 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer unparkSuccessor (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 49 1 556 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer cancelAcquire (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 0 0 1 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer shouldParkAfterFailedAcquire (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z 1001 1 524 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer selfInterrupt ()V 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer parkAndCheckInterrupt ()Z 497 1 1230 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer acquireQueued (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;I)Z 409 177 5096 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer tryAcquire (I)Z 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer acquire (I)V 529 1 1244 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetHead (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z 41 1 5 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetTail (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z 2065 1 5101 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetWaitStatus (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;II)Z 2057 1 8033 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetNext (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/AbstractOwnableSynchronizer setExclusiveOwnerThread (Ljava/lang/Thread;)V 2049 1 14398 0 0
+ciMethod java/util/concurrent/locks/AbstractOwnableSynchronizer getExclusiveOwnerThread ()Ljava/lang/Thread; 1033 1 129 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer$Node predecessor ()Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 2057 1 5620 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer$Node <init> ()V 49 1 6 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer$Node <init> (Ljava/lang/Thread;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 2049 1 292 0 0
+ciMethod sun/java2d/pipe/RenderQueue lock ()V 2049 1 8449 0 -1
+ciMethod java/util/concurrent/locks/LockSupport setBlocker (Ljava/lang/Thread;Ljava/lang/Object;)V 2073 1 10145 0 0
+ciMethod java/util/concurrent/locks/LockSupport park (Ljava/lang/Object;)V 793 1 2412 0 0
+ciMethodData java/lang/Thread interrupted ()Z 2 14738 orig 264 72 34 139 105 0 0 0 0 104 216 235 22 0 0 0 0 96 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 1 0 0 97 196 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 32 0 0 0 255 255 255 255 2 0 0 0 0 0 0 0 data 4 0x2 0x388d 0x40002 0x388d oops 0
+ciMethodData java/util/concurrent/locks/AbstractOwnableSynchronizer setExclusiveOwnerThread (Ljava/lang/Thread;)V 2 14398 orig 264 72 34 139 105 0 0 0 0 0 123 43 23 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 241 185 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer setState (I)V 2 6347 orig 264 72 34 139 105 0 0 0 0 24 76 43 23 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 57 190 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetState (II)Z 2 10988 orig 264 72 34 139 105 0 0 0 0 184 76 43 23 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
